@@ -1,0 +1,110 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #2e2f42;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 24px;
+    width: 534px;
+    height: 302px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-three {
+    border-radius: 8px;
+    padding: 32px;
+    width: 486px;
+    height: 104px;
+    background: #f6f6fe;
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.number-in {
+    border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 8px 38px;
+    width: 150px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.btn-create {
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    background-color: #4e75ff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.btn-destroy {
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    background-color: #ff4e4e;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.wrap {
+    border-radius: 8px;
+    border: none;
+    padding: 32px;
+    width: 486px;
+    height: 134px;
+    outline: 1px;
+    display: flex;
+    background-color: #f6f6fe;
+    justify-content: space-between;
+}
+
+.blok-one {
+    width: 30px;
+    height: 30px;
+    background-color: #799cd2;
+}
+
+.blok-two {
+    width: 40px;
+    height: 40px;
+    background-color: #8cb9d4;
+}
+
+.blok-three {
+    width: 50px;
+    height: 50px;
+    background-color: #ade1d1;
+}
+
+.blok-four {
+    width: 60px;
+    height: 60px;
+    background-color: #d1ebde;
+}
+
+.blok-five {
+    width: 70px;
+    height: 70px;
+    background-color: #8ebfa7;
+}

@@ -1,0 +1,51 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #2e2f42;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 24px;
+    width: 408px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.form-label {
+    width: 360px;
+    margin-top: 8px;
+}
+
+.text-in {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    display: block;
+}
+
+.imput-around {
+    position: relative;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+}
+
+.button-login {
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    width: 86px;
+    height: 40px;
+    background-color: #4e75ff;
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
