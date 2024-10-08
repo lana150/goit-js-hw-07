@@ -1,0 +1,36 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #2e2f42;
+    background-color: #fff;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.text-imput {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-right: 140px;
+    padding-bottom: 8px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.04em;
+}
+
+.around {
+    padding: 24px;
+}
