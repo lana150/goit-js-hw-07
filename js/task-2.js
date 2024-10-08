@@ -25,19 +25,17 @@ const images = [
   },
 ];
 
+// Знайти ul.gallery
 const gallery = document.querySelector('.gallery');
 
-// Створення елементів
-const galleryItems = images.map(image => {
-  const li = document.createElement('li');
-  const img = document.createElement('img');
-  
-  img.src = image.url;
-  img.alt = image.alt;
-  
-  li.appendChild(img);
-  return li;
-});
+// Створити розмітку для кожного зображення
+const galleryItems = images.map(({ url, alt }) => {
+  return `
+    <li>
+      <img src="${url}" alt="${alt}">
+    </li>
+  `;
+}).join(''); // Перетворюємо масив рядків у єдиний рядок
 
-// Додавання всіх елементів за одну операцію
-gallery.append(...galleryItems);
+// Додати розмітку в ul.gallery
+gallery.insertAdjacentHTML('beforeend', galleryItems);

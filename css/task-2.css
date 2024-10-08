@@ -15,14 +15,51 @@ ol {
     width: 1440px;
 }
 
-.gallery {
+/*.gallery {
     display: flex;
     gap: 48px 24px;
     flex-wrap: wrap;
     padding-left: 156px;
     padding-right: 156px;
-}
+}*/
 
 .list-img {
     width: calc((100% - 48px) / 3);
+}
+
+
+
+/* Галерея */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    /* Зображення розташовуються в кілька рядів */
+    gap: 15px;
+    /* Відстань між зображеннями */
+    justify-content: center;
+    /* Центрування елементів */
+    padding: 0;
+    list-style: none;
+}
+
+/* Оформлення для кожного <li> */
+.gallery li {
+    flex-basis: calc(33.33% - 10px);
+    /* Кожне зображення займає третину ширини контейнера */
+    box-sizing: border-box;
+
+    /* Враховує padding і border */
+}
+
+/* Стиль зображень */
+.gallery img {
+    display: block;
+    width: 100%;
+    /* Зображення заповнює контейнер <li> */
+    height: 100%;
+    /* Зберігає пропорції */
+    object-fit: cover;
+    /* Обрізає зображення, щоб воно рівно входило в контейнер */
+    /*border-radius: 8px;*/
+    /* Додає округлі кути */
 }
