@@ -1,26 +1,26 @@
 const images = [
    {
-    url: "./images/img-1.jpg",
+    url: "images/img-1.jpg",
     alt: "img-1",
   },
   {
-    url: "./images/img-2.jpg",
+    url: "images/img-2.jpg",
     alt: "img-2",
   },
   {
-    url: "./images/img-3.jpg",
+    url: "images/img-3.jpg",
     alt: "img-3",
   },
   {
-    url: "./images/img-4.jpg",
+    url: "images/img-4.jpg",
     alt: "img-4",
   },
   {
-    url: "./images/img-5.jpg",
+    url: "images/img-5.jpg",
     alt: "img-5",
   },
   {
-    url: "./images/img-6.jpg",
+    url: "images/img-6.jpg",
     alt: "img-6",
   },
 
