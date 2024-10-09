@@ -1,4 +1,29 @@
 const images = [
+   {
+    url: "/images/img-1.jpg",
+    alt: "img-1",
+  },
+  {
+    url: "/images/img-2.jpg",
+    alt: "img-2",
+  },
+  {
+    url: "/images/img-3.jpg",
+    alt: "img-3",
+  },
+  {
+    url: "/images/img-4.jpg",
+    alt: "img-4",
+  },
+  {
+    url: "/images/img-5.jpg",
+    alt: "img-5",
+  },
+  {
+    url: "/images/img-6.jpg",
+    alt: "img-6",
+  },
+
   {
     url: "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?dpr=2&h=750&w=1260",
     alt: "White and Black Long Fur Cat",
@@ -30,12 +55,12 @@ const galleryList = document.querySelector(".gallery");
 const fragment = document.createDocumentFragment();
 
 images.forEach(({ url, alt }) => {
-  const listItem = document.createElement("list-imges");
-  listItem.classList.add("list-imges");
+  const listItem = document.createElement("li"); 
+  listItem.classList.add("list-img"); 
   const img = document.createElement("img");
   img.src = url;
   img.alt = alt;
-  img.classList.add("list-imges");
+  img.classList.add("list-img"); 
   listItem.append(img);
   fragment.append(listItem);
 });

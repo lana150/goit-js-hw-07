@@ -24,13 +24,10 @@ ol {
     justify-content: center;
 }
 
-.list-imges {
-    width: 360px;
-    height: 300px;
-    object-fit: cover;
-}
-
 .list-img {
     width: calc((100% - 48px) / 3);
     box-sizing: border-box;
+    width: 360px;
+    height: 300px;
+    object-fit: cover;
 }
